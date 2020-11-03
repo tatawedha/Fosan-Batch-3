@@ -1,0 +1,168 @@
+body {
+    /* background-color: blue; */
+    padding: 15px;
+}
+.container{
+    border: 5px solid black;
+    height: 1400px;
+}
+.box1 {
+    /* background-color: chartreuse; */
+    width: 90%;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    margin-left: 50px;
+}
+.boxphoto{
+    background-image:url('./lazyfatcat.jpeg');
+    background-size: cover;
+    width: 35%;
+    height: 300px;
+}
+.boxnama{
+    width: 65%;
+    padding:10px;
+    text-align: center;
+    background-color: black;
+}
+.Tata {
+    font-size:50px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: blanchedalmond;
+}
+.position {
+    font-size:20px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: blanchedalmond;
+}
+.box2{
+    /* background-color: cornsilk; */
+    width: 90%;
+    height: 1000px;
+    padding-left: 10px;
+    display: flex;   
+    margin-left: 50px;
+}
+.boxkiri{
+    background-color: gray;
+    width: 35%;
+    height: 1000px;
+    padding: 20px;
+}
+.boxa{
+    /* background-color:maroon; */
+    width: 100%;
+    height: 333px;
+    text-align: center;
+}
+.boxb{
+    /* background-color:slategray; */
+    width: 100%;
+    text-align: center;
+    height: 333px;
+}
+.boxb th{
+    width :100%;
+    text-align: center;
+    border-collapse: collapse;
+    height: 20px;
+}
+.boxb td, tr{
+    font-size: 20px;
+    width :100%;
+    text-align: left;
+    border-collapse: collapse;
+    height: 30px;
+    padding: 10px;
+}
+.boxc{
+    /* background-color: gold; */
+    width: 100%;
+    height: 333px;
+}
+.boxkanan{
+    background-color: #edebed;
+    /* width: 60%; */
+    height: 1000px;
+    padding:20px;
+}
+
+.boxd{
+    /* background-color:maroon; */
+    width: 100%;
+    height: 333px;
+    /* border: 1px solid black; */
+}
+.boxd th{
+    text-align: center;
+    border-collapse: collapse;
+    height: 20px;
+    color: blanchedalmond;
+    /* border: 1px solid black; */
+}
+.boxd td, tr{
+    font-size: 20px;
+    /* width :50%; */
+    text-align: center;
+    border-collapse: collapse;
+    height: 10px;
+    padding: 5px;
+    /* border: 1px solid black; */
+}
+.boxe{
+    /* background-color:slategray; */
+    width: 100%;
+    height: 333px;
+}
+.boxe th{
+    text-align: center;
+    border-collapse: collapse;
+    height: 20px;
+    color: blanchedalmond;
+    /* border: 1px solid black; */
+}
+.boxe td, tr{
+    font-size: 20px;
+    /* width :50%; */
+    text-align: center;
+    border-collapse: collapse;
+    height: 10px;
+    padding: 5px;
+    /* border: 1px solid black; */
+}
+.boxf{
+    /* background-color: gold; */
+    width: 100%;
+    height: 333px;
+}
+.fa {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-instagram {
+    background: #de12b8;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  a:hover {
+    /* background-color: yellow; */
+    font-size: 80px !important;
+    width: 80px;
+    height: 80px;
+  }
